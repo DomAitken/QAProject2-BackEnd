@@ -38,7 +38,7 @@ If your tables are already existing and holding data, you may have to change a f
 Maven (https://maven.apache.org/) - Dependency Management
 
 ## Versioning
-We use GitHub and MacOS Terminal for versioning.
+I used GitHub and MacOS Terminal for versioning.
 
 ## Authors
 Chris Perrins - Initial work - christophperrins
@@ -50,4 +50,5 @@ This project is licensed under the MIT license - see the LICENSE.md file for det
 
 ## Acknowledgments
 Thanks to anyone whose code was used.
+
 Jordan for the help with the project.
