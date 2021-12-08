@@ -16,23 +16,24 @@ Eclipse IDE (https://www.eclipse.org/downloads/packages/release/luna/sr1/eclipse
 MySQL Workbench / or any DB utility you prefer. EG: NaviCat / DBeaver (I used MySQL Workbench: https://dev.mysql.com/downloads/workbench/) 
 
 ### Installing
-To set up the test environment for this project, first make sure you have all of the required prerequisites. Then open Eclipse and import the maven project.
+To set up the test environment for this project, first make sure you have all of the required prerequisites. Then open Eclipse and open a Spring Starter Project.
 
-Next, in the resources folder of the maven project, find the "db.properties" file and edit them to be the login for your MySQL database account. Next, locate "sql-data.sql" and run it to create the requires databases.
+Next, in the resources folder of the maven project, find the "application.properties" file and edit them to be the login for your MySQL database account. Next, locate "sql-data.sql" and run it to create the requires databases.
 
 Now when you open the Runner.java file you should have the working application.
 
-The usage of this program is to create, edit, read, and update a databse for customers, orders, and items. The usability is very simple as it is just some basic commands on a command line. 
+The usage of this program is to create, edit, read, and update a database of NFL Players, using a website designed with a combination of HTML and CSS to handle user inputs and create an aesthetically pleasing GUI.
 
-For example if you wanted to create a customer, when running the program just type "customer" and then "create" when prompted. The application will ask what the Customer's name is, then ask for their surname. Once this data has been collected it will create a new entry to the database with the new customer.
-Running the tests
+For example if you wanted to add a player, simply write their details in the appropriate fields and then press the "Submit" button. This will add the player to the database. In addition, if you wanted to see all the players listed in the database, you can simply press the "Show All" button. You can also edit player details by selecting their name in the database and updating the fields necessary. Players can be deleted from the database by inputting their details and then pressing the "Delete" button.
+
 The tests included with this system are made to automatically run the code to see if the results we give it are possible to come back with. There are not enough tests in this project to cover the whole application, but the tests that exist in the project already can cover some of the areas.
 
 To run a test, you can open the class that holds the test and click "coverage as, JUnit". To run all of the tests at once, right click on the project itself at "Src/Java" and click coverage as JUnit again.
-Deployment
-To add this to a live system, make sure that the database properties in the db.properties folder match those that exist with your database, and update the sql-schema to include your tables.
 
-If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the DAO classes. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
+## Deployment
+To add this to a live system, make sure that the database properties in the application.properties folder match those that exist with your database, and update the sql-schema to include your tables.
+
+If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the classes stored in the "service" package. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
 
 ## Built With
 Maven (https://maven.apache.org/) - Dependency Management
