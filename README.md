@@ -1,10 +1,10 @@
-Cloud Native Project
+## Cloud Native Project
 This project is a demonstration of a working database system with a front-end website UI. The project is written in Java and SQL, and is tested with Maven. The project will also feature Github to Jira integration.
 
-Getting Started
+# Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
+# Prerequisites
 To install this project and set up a test environment you must first ensure that you have the following prerequisites:
 
 Java Runtime (JRE) - I am running JRE 1.8 while building this project.
@@ -12,7 +12,8 @@ Maven
 Eclipse IDE
 MySQL
 MySQL Workbench / or any DB utility you prefer. EG: NaviCat / DBeaver
-Installing
+
+# Installing
 To set up the test environment for this project, first make sure you have all of the required prerequisites. Then open Eclipse and import the maven project.
 
 Next, in the resources folder of the maven project, find the "db.properties" file and edit them to be the login for your MySQL database account. Next, locate "sql-data.sql" and run it to create the requires databases.
@@ -31,12 +32,12 @@ To add this to a live system, make sure that the database properties in the db.p
 
 If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the DAO classes. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
 
-Built With
+# Built With
 Maven - Dependency Management
 Versioning
 We use GitHub and MacOS Terminal for versioning.
 
-Authors
+# Authors
 Chris Perrins - Initial work - christophperrins
 Dom Aitken - Updated Functionality - DomAitken
 License
@@ -44,6 +45,6 @@ This project is licensed under the MIT license - see the LICENSE.md file for det
 
 For help in Choosing a license
 
-Acknowledgments
+# Acknowledgments
 Thanks to anyone whose code was used.
 Jordan and Anoush for the help with the project.
