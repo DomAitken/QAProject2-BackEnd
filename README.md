@@ -8,8 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 To install this project and set up a test environment you must first ensure that you have the following prerequisites:
 
 Java Runtime (JRE) - I am running JRE 1.8 while building this project.
+
 Maven (https://maven.apache.org/)
+
 Eclipse IDE (https://www.eclipse.org/downloads/packages/release/luna/sr1/eclipse-ide-java-developers)
+
 MySQL Workbench / or any DB utility you prefer. EG: NaviCat / DBeaver (I used MySQL Workbench: https://dev.mysql.com/downloads/workbench/) 
 
 ### Installing
