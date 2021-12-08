@@ -36,17 +36,18 @@ If your tables are already existing and holding data, you may have to change a f
 
 ## Built With
 Maven (https://maven.apache.org/) - Dependency Management
-Versioning
+
+## Versioning
 We use GitHub and MacOS Terminal for versioning.
 
 ## Authors
 Chris Perrins - Initial work - christophperrins
+
 Dom Aitken - Updated Functionality - DomAitken (www.github.com/DomAitken)
-License
-This project is licensed under the MIT license - see the LICENSE.md file for details
 
-For help in Choosing a license
+## License
+This project is licensed under the MIT license - see the LICENSE.md file for details.
 
-# Acknowledgments
+## Acknowledgments
 Thanks to anyone whose code was used.
-Jordan and Anoush for the help with the project.
+Jordan for the help with the project.
