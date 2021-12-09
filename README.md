@@ -29,7 +29,8 @@ Running the tests
 The tests included with this system are made to automatically run the code to see if the results we give it are possible to come back with. There are not enough tests in this project to cover the whole application, but the tests that exist in the project already can cover some of the areas.
 
 To run a test, you can open the class that holds the test and click "coverage as, JUnit". To run all of the tests at once, right click on the project itself at "Src/Java" and click coverage as JUnit again.
-Deployment
+
+## Deployment
 To add this to a live system, make sure that the database properties in the db.properties folder match those that exist with your database, and update the sql-schema to include your tables.
 
 If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the DAO classes. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
