@@ -16,24 +16,23 @@ Eclipse IDE (https://www.eclipse.org/downloads/packages/release/luna/sr1/eclipse
 MySQL Workbench / or any DB utility you prefer. EG: NaviCat / DBeaver (I used MySQL Workbench: https://dev.mysql.com/downloads/workbench/) 
 
 ### Installing
-To set up the test environment for this project, first make sure you have all of the required prerequisites. Then open Eclipse and import the maven project.
+To set up the test environment for this project, first make sure you have all of the required prerequisites. Then open Eclipse and create a new Spring Starter Project.
 
-Next, in the resources folder of the maven project, find the "db.properties" file and edit them to be the login for your MySQL database account. Next, locate "sql-data.sql" and run it to create the requires databases.
+There should be a folder listed in the file explorer directory called "application.properties". Open it, find and edit the details in the file to be the login for your MySQL database account. Next, locate "sql-data.sql" and run it to create the required databases.
 
-Now when you open the Runner.java file you should have the working application.
+The usage of this program is to allow a user to create, edit, read, and update a databse for NFL Players by interacting with a front-end website GUI.
 
-The usage of this program is to create, edit, read, and update a databse for customers, orders, and items. The usability is very simple as it is just some basic commands on a command line. 
+For example if you wanted to create a player, when running the program just input the data into the prompted tables on the website. The application will add the data to the database table, where it will be stored persistently. This table can also be read from by pressing the "List All" button, updated by pressing the "Replace" button and have items deleted from it using the "delete" button.
 
-For example if you wanted to create a customer, when running the program just type "customer" and then "create" when prompted. The application will ask what the Customer's name is, then ask for their surname. Once this data has been collected it will create a new entry to the database with the new customer.
-Running the tests
+## Running the tests
 The tests included with this system are made to automatically run the code to see if the results we give it are possible to come back with. There are not enough tests in this project to cover the whole application, but the tests that exist in the project already can cover some of the areas.
 
 To run a test, you can open the class that holds the test and click "coverage as, JUnit". To run all of the tests at once, right click on the project itself at "Src/Java" and click coverage as JUnit again.
 
 ## Deployment
-To add this to a live system, make sure that the database properties in the db.properties folder match those that exist with your database, and update the sql-schema to include your tables.
+To add this to a live system, make sure that the application properties in the application.properties folder match those that exist with your database, and update the sql-schema to include your tables.
 
-If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the DAO classes. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
+If your tables are already existing and holding data, you may have to change a few methods in this application such as those found in the "Service" classes. The main changes will be to your SQL queries, but if your tables have different columns then this application will not be good to run on your system.
 
 ## Built With
 Maven (https://maven.apache.org/) - Dependency Management
