@@ -1,4 +1,4 @@
-# Cloud Native Project
+# Cloud Native Project - Back End
 This project is a demonstration of a working database system with a front-end website UI. The project is written in Java and SQL, and is tested with Maven. The project will also feature Github to Jira integration.
 
 ## Getting Started
