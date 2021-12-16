@@ -65,6 +65,5 @@ The HTML and CSS are used to create the look of the website, I used CSS to alter
 ## Network Graph - Back End
 
 ![image](https://user-images.githubusercontent.com/93253286/146455076-b4edc66c-f66c-4fc0-8dba-66c0bb55dad5.png)
-
  
 The JS was used for the API integration using axios, thus allowing the program to communicate with the database via my Java files.
